@@ -1,0 +1,103 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+ }
+ @media screen and (max-width: 480px) {
+   .content .leftside h1{
+     font-size: 1em;
+   }
+   .content .leftside h3{
+      font-size: 1em;
+    }
+ }
+
+ .container{
+    background-color: #d40000;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+ .pp{
+   width: 100px;
+   height: 120px;
+   border: 3px solid rgb(0, 0, 0);
+   border-radius: 50%;
+   float: left;
+ }
+.header-bio{
+   float: left;
+   padding: 30px;
+}
+.header-contact{
+   float: right; 
+}
+.header-contact p{
+   padding: 5px;
+}
+.header-contact a{
+   padding: 30px;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+.header-contact a:hover{
+   text-decoration: underline;
+   color: yellow;
+}
+.div-clear{
+   clear: both;
+}
+hr{
+   border: solid black 3px;
+   width: 100%;
+   margin: 20px auto;
+   border-bottom:none;
+}
+
+.content{
+   margin-bottom: 30px;
+}
+.leftside{
+   width: 30%;
+   float: left;
+}
+.rightside{
+   width: 70%;
+   float: right ;
+   
+}
+.common-hr{
+   border: black solid 1px;
+   border-bottom:none;
+   width: 100%;
+   margin: 20;
+}
+.right-left{
+   float: left;
+   width: 45%;
+}
+.right-right{
+   float: right;
+   width: 45%;
+}
+.bottom-container{
+   background-color: rgb(224, 224, 0);
+   width: 100%;
+   text-align: center;
+   padding: 10px; 
+}
+.bottom-container a{
+   color: black;
+   text-decoration: none;
+   margin: 20px;
+}
+.bottom-container p{
+   margin-top: 20px;
+}
+.bottom-container a:hover{
+   color: white;
+}
